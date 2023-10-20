@@ -1,0 +1,10 @@
+.btn-link{
+    color: var(--orange);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--bg);
+    text-decoration: none !important;
+}
+.btn-link:hover{
+    color: var(--Teal) !important;
+}

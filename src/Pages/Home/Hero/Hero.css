@@ -1,0 +1,34 @@
+.hero{
+    height: calc(110vh - 56px);
+    background-color: var(--second-bg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding:  50px;
+}
+.hero .lg-title{
+    color: var(--green);
+}
+.hero img{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    z-index: 2;
+}
+.hero .hero-text{
+    max-width: 600px;
+    padding: 0px 10px;
+    text-align: center;
+    color: var(--text-mute);
+}
+.hero .btn-link{
+    color: var(--orange);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--bg);
+    text-decoration: none;
+}
