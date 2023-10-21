@@ -1,0 +1,19 @@
+.owl-dots{
+    display: none;
+}
+.owl-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+    padding: 5px 15px !important;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px !important;
+    background-color: var(--orange);
+}
+.owl-carousel .owl-stage-outer{
+    max-height: 250px;
+}

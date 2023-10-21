@@ -10,7 +10,7 @@ export default function Blog() {
             <h1 className="sec-title">New-Articles</h1>
             <div className="blog-head">
                 <h2>Blogs</h2>
-                <Link to="/blog" className="btn-link">
+                <Link to="/blogs" className="btn-link">
                     See All <BsArrowRight />
                 </Link>
             </div>

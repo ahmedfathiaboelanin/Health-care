@@ -19,8 +19,8 @@ function NavScrollExample() {
               Home
             </Nav.Link>
             <NavDropdown title="Services" id="navbarScrollingDropdown">
-              <NavDropdown.Item as={Link} to="/services/service-1">
-                Service One
+              <NavDropdown.Item as={Link} to="/services/recommendation">
+                Recommendation
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/services/service-1">
@@ -31,7 +31,7 @@ function NavScrollExample() {
                 Service Three
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/blog">
+            <Nav.Link as={Link} to="/blogs">
               Blog
             </Nav.Link>
             <Nav.Link as={Link} to="/about">

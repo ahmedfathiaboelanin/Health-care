@@ -1,0 +1,45 @@
+.recommend{
+    min-height: 50vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.select{
+    position: relative;
+    width: 100% !important;
+}
+.multiSelectContainer{
+    position: relative;
+    width: 100% !important;
+    min-width: 300px !important;
+}
+.submit{
+    padding: 10px 20px;
+    background-color: var(--second-bg);
+    color: var(--orange);
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.border-none{
+    border: none !important;
+}
+.dr-name{
+    color: var(--green);
+}
+.recommended{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.recommended .dr-card{
+    border: 2px solid var(--green);
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 230px;
+}

@@ -34,7 +34,7 @@ export default function About() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
             magnam.
           </p>
-          <BtnLink path="/" class="secondary-bg">
+          <BtnLink path="/about" class="secondary-bg">
             Learn more about our team
             <BsArrowRight />
           </BtnLink>
